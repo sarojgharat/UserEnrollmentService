@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: com.amazonaws.serverless.function.AddUserHandler::handleRequest
       Runtime: java8
-      CodeUri: https://s3-eu-west-1.amazonaws.com/aab-loyalty-ride/employeeservice-4.0.0.jar
+      CodeUri: "https://s3-eu-west-1.amazonaws.com/aab-loyalty-ride/employeeservice-4.0.0.jar"
       Timeout: 30
       MemorySize: 1024
       Environment:
