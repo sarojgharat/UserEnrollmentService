@@ -1,0 +1,17 @@
+C:\Users\GH0252\Data\Workspace.AWS\UserEnrollmentService\src\main\java\com\amazonaws\serverless\util\Consts.java
+C:\Users\GH0252\Data\Workspace.AWS\UserEnrollmentService\src\main\java\com\amazonaws\serverless\pojo\EmailId.java
+C:\Users\GH0252\Data\Workspace.AWS\UserEnrollmentService\src\main\java\com\amazonaws\serverless\function\SaveUserPreferencesHandler.java
+C:\Users\GH0252\Data\Workspace.AWS\UserEnrollmentService\src\main\java\com\amazonaws\serverless\dao\UserPreferencesDao.java
+C:\Users\GH0252\Data\Workspace.AWS\UserEnrollmentService\src\main\java\com\amazonaws\serverless\domain\User.java
+C:\Users\GH0252\Data\Workspace.AWS\UserEnrollmentService\src\main\java\com\amazonaws\serverless\dao\UserDao.java
+C:\Users\GH0252\Data\Workspace.AWS\UserEnrollmentService\src\main\java\com\amazonaws\serverless\manager\DynamoDBManager.java
+C:\Users\GH0252\Data\Workspace.AWS\UserEnrollmentService\src\main\java\com\amazonaws\serverless\function\ActivateUserHandler.java
+C:\Users\GH0252\Data\Workspace.AWS\UserEnrollmentService\src\main\java\com\amazonaws\serverless\domain\UserPreferences.java
+C:\Users\GH0252\Data\Workspace.AWS\UserEnrollmentService\src\main\java\com\amazonaws\serverless\function\GetUserByCustomerIdHandler.java
+C:\Users\GH0252\Data\Workspace.AWS\UserEnrollmentService\src\main\java\com\amazonaws\serverless\util\UserStatusTypeConverter.java
+C:\Users\GH0252\Data\Workspace.AWS\UserEnrollmentService\src\main\java\com\amazonaws\serverless\dao\DynamoDBUserPreferencesDao.java
+C:\Users\GH0252\Data\Workspace.AWS\UserEnrollmentService\src\main\java\com\amazonaws\serverless\function\AddUserHandler.java
+C:\Users\GH0252\Data\Workspace.AWS\UserEnrollmentService\src\main\java\com\amazonaws\serverless\dao\DynamoDBUserDao.java
+C:\Users\GH0252\Data\Workspace.AWS\UserEnrollmentService\src\main\java\com\amazonaws\serverless\pojo\UserStatus.java
+C:\Users\GH0252\Data\Workspace.AWS\UserEnrollmentService\src\main\java\com\amazonaws\serverless\function\GetUserPreferencesHandler.java
+C:\Users\GH0252\Data\Workspace.AWS\UserEnrollmentService\src\main\java\com\amazonaws\serverless\function\VerifyActivationCodeHandler.java
