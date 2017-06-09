@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Beyond Banking Hackathon
+Resources:
+  ActivateUser:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: com.amazonaws.serverless.function.AddUserHandler::handleRequest
+      Runtime: java8
+      CodeUri: https://s3-eu-west-1.amazonaws.com/aab-loyalty-ride/employeeservice-4.0.0.jar
+      Timeout: 30
+      MemorySize: 1024
+      Environment:
+      Role: arn:aws:iam::598307997273:role/microserviceRole
+      Events:
+        UserEnrollmentServiceApi:
+          Type: Api
+          Properties:
+            Path: /users
+            Method: POST
