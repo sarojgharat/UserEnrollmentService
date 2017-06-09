@@ -11,4 +11,4 @@ phases:
       - mvn package
 artifacts:
   files:
-    - target/employeeservice-4.0.0-SNAPSHOT.jar
+    - target/employeeservice-4.0.0.jar
