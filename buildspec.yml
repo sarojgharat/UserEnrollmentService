@@ -9,6 +9,7 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
+      - aws lambda create-function --region eu-west-1 --function-name ActivateUser --zip-file employeeservice-4.0.0.jar --s3-bucket=aab-loyalty-ride --role arn:aws:iam::853493370704:role/service-role/SarojLambdaDynamoDB --handler com.amazonaws.serverless.function.AddUserHandler::handleRequest --runtime java8
 artifacts:
   files:
     - target/employeeservice-4.0.0.jar
